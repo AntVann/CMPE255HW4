@@ -10,7 +10,7 @@ Medium Article: https://medium.com/@anthonyjustinvann/data-science-using-chatgpt
 
 
 ## Assignment 2
-Code in directory
+Code in directory: Assignment2/maplestory_flask
 
 Video:
 
