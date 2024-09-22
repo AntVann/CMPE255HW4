@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maplestory Flask App</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        form { margin-bottom: 20px; }
+        input, select, button { margin: 5px 0; }
+        #characterInfo, #inventoryInfo { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Maplestory Flask App</h1>
+    
+    <h2>Create Character</h2>
+    <form id="createCharacterForm">
+        <input type="text" id="characterName" placeholder="Character Name" required>
+        <select id="characterJob" required>
+            <option value="Warrior">Warrior</option>
+            <option value="Magician">Magician</option>
+            <option value="Archer">Archer</option>
+            <option value="Thief">Thief</option>
+        </select>
+        <button type="submit">Create Character</button>
+    </form>
+
+    <h2>Battle</h2>
+    <form id="battleForm">
+        <input type="text" id="battleCharacterName" placeholder="Character Name" required>
+        <select id="monsterName" required>
+            <option value="slime">Slime</option>
+            <option value="mushroom">Mushroom</option>
+            <option value="snail">Snail</option>
+        </select>
+        <button type="submit">Battle</button>
+    </form>
+
+    <h2>Character Info</h2>
+    <div id="characterInfo"></div>
+
+    <h2>Inventory</h2>
+    <div id="inventoryInfo"></div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
