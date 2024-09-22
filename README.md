@@ -6,7 +6,7 @@ Kaggle Dataset Used: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotif
 
 Chat transcript: https://chatgpt.com/share/66efb9ea-3834-8000-a2c2-7c484105d53a
 
-Medium Article:
+Medium Article: https://medium.com/@anthonyjustinvann/data-science-using-chatgpt-dcb6d350dbfa
 
 
 ## Assignment 2
